@@ -1,4 +1,4 @@
-baseURL: "https://ordinaryrobot.github.io/Xiaoyuer/"
+baseURL: "https://ordinaryrobot.github.io/Xiaoyuer-blog/"
 title: 小鱼儿
 locale: zh-CN
 defaultContentLanguage: zh-cn
@@ -79,12 +79,12 @@ params:
   author:
     name: Solitude
     email: solitude@example.org
-  description: Solitude Hugo 主题演示、配置指南与前端实践
+  description: 小鱼儿的个人博客，记录学习、代码与生活
   solitude:
     site:
       name:
         class: text
-        custom: Solitude
+        custom: 小鱼儿
     nav:
       group:
         项目:
@@ -111,17 +111,18 @@ params:
         Sticky: newestPost,newest_comment,allInfo
       my_card:
         author:
-          img: https://github.com/everfu.png
+          img: https://img2.doubanio.com/view/subject/m/public/s4518991.jpg
           emoji: "😊"
-        description: 简洁、优雅、功能丰富的 Hugo 主题。
-        content: 这里集中展示页面能力、配置方式与真实使用示例。
+        description: 小鱼儿的个人博客。
+        content: 欢迎来到我的博客，记录我的学习，生活与想法。
         witty_words: [让内容自然成为主角, 从一个配置开始, 保持克制与表达]
         information:
           - name: GitHub
             url: https://github.com/everfu/hugo-solitude
             icon: fab fa-github
       siteinfo:
-        runtime: 2023-04-20 00:00:00
+           runtime: 2026-11-12 00:00:00
+
     post:
       default:
         copyright:

@@ -6,9 +6,9 @@ if not exist "D:\tools\hugo\hugo.exe" (
   exit /b 1
 )
 echo.
-echo   Open in browser : http://localhost:1313/Xiaoyuer/
+echo   Open in browser : http://localhost:1313/Xiaoyuer-blog/
 echo   Stop            : close this window
 echo.
-start "" cmd /c "timeout /t 3 >nul & start "" http://localhost:1313/Xiaoyuer/"
+start "" cmd /c "timeout /t 3 >nul & start "" http://localhost:1313/Xiaoyuer-blog/"
 "D:\tools\hugo\hugo.exe" server -D
 pause
