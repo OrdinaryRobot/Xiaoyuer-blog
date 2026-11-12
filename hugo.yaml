@@ -279,6 +279,27 @@ params:
       fancyapps_css: https://fastly.jsdelivr.net/npm/@fancyapps/ui@6.1.14/dist/fancybox/fancybox.css
       fancyapps_js: https://fastly.jsdelivr.net/npm/@fancyapps/ui@6.1.14/dist/fancybox/fancybox.umd.js
       typeit: https://fastly.jsdelivr.net/npm/typeit@8.8.7/dist/index.umd.min.js
+      mermaid: https://fastly.jsdelivr.net/npm/mermaid@11.16.0/dist/mermaid.min.js
+      chart: https://fastly.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js
+      abcjs: https://fastly.jsdelivr.net/npm/abcjs@6.6.4/dist/abcjs-basic-min.js
+      katex_css: https://fastly.jsdelivr.net/npm/katex@0.16.47/dist/katex.min.css
+      katex_copytex: https://fastly.jsdelivr.net/npm/katex@0.16.47/dist/contrib/copy-tex.min.js
+      aplayer_css: https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css
+      aplayer_js: https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js
+      meting_js: https://fastly.jsdelivr.net/npm/meting@2.0.2/dist/Meting.min.js
+      colorthief: https://fastly.jsdelivr.net/npm/colorthief@3.4.0/dist/umd/color-thief.global.min.js
+      twikoo: https://fastly.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.all.min.js
+      waline_css: https://fastly.jsdelivr.net/npm/@waline/client@3.6.0/dist/waline.css
+      waline: https://fastly.jsdelivr.net/npm/@waline/client@3.6.0/dist/waline.umd.js
+      valine: https://fastly.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js
+      blueimp_md5: https://fastly.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js
+      artalk_css: https://fastly.jsdelivr.net/npm/artalk@2.9.1/dist/Artalk.css
+      artalk: https://fastly.jsdelivr.net/npm/artalk@2.9.1/dist/Artalk.js
+      algoliasearch: https://fastly.jsdelivr.net/npm/algoliasearch@5.46.3/dist/lite/builds/browser.umd.js
+      instantsearch_css: https://fastly.jsdelivr.net/npm/instantsearch.css@8.9.0/themes/satellite-min.css
+      instantsearch: https://fastly.jsdelivr.net/npm/instantsearch.js@4.84.0/dist/instantsearch.production.min.js
+      docsearch_css: https://fastly.jsdelivr.net/npm/@docsearch/css@4.5.0/dist/style.css
+      docsearch_js: https://fastly.jsdelivr.net/npm/@docsearch/js@4.5.0/dist/umd/index.js
     search:
       enable: true
       type: local
