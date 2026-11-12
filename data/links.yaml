@@ -5,7 +5,9 @@ links:
     link_list: 
       - name: 学习C++语法与算法
         link: https://algospark.cwnupaa.com/
+        avatar: /Xiaoyuer-blog/img/friends/algospark.svg
         descr: 西华师范大学程序设计算法协会学习平台
       - name: 优秀中科大学长的博客
         link: https://wyqz.top/
+        avatar: /Xiaoyuer-blog/img/friends/wyqz.png
         descr: 一位保研中科大的优秀学长的博客，记录了他自进入大学以来的来时路
