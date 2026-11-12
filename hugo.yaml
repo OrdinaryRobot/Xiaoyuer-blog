@@ -169,7 +169,7 @@ params:
         - name: 订阅
           url: /index.xml
     comment:
-      use: valine
+      use: none
       commentBarrage: false
       lazyload: false
       count: true
@@ -180,7 +180,7 @@ params:
         enable: false
         count: 3
       newest_comment:
-        enable: true
+        enable: false
         storage: 0.5
         limit: 5
     valine:
@@ -193,12 +193,12 @@ params:
       option: {}
     console:
       recentComment:
-        enable: true
+        enable: false
         storage: 0.2
     right_menu:
-      commentBarrage: true
+      commentBarrage: false
     recent_comments:
-      enable: true
+      enable: false
       limit: 50
       cache: 0.2
       page: /recentcomments/
@@ -213,13 +213,13 @@ params:
       loop: true
       page: /message/
     capsule:
-      enable: true
+      enable: false
       id: "8407304077"
       server: netease
       type: playlist
       volume: 0.8
     music:
-      enable: true
+      enable: false
       id: "8407304077"
       server: netease
       type: playlist
