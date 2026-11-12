@@ -3,6 +3,7 @@ title: "好题4 bool的好处"
 date: 2026-11-10
 draft: false
 categories: ["C&C++"]
+cover: \Xiaoyuer-blog\img\cover\c++.jpg
 ---
 
 **先点题，Bool只要条件为真，那么就只会记录一次，不会再测**
