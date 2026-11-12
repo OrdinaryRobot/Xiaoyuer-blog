@@ -91,9 +91,6 @@ params:
           - name: GitHub
             url: https://github.com/OrdinaryRobot
             icon: /img/logo.png
-          - name: 官方文档
-            url: https://solitude.js.org/
-            icon: /img/logo.png
     hometop:
       banner:
         title: 小鱼儿的博客
@@ -118,7 +115,7 @@ params:
         witty_words: [让内容自然成为主角, 从一个配置开始, 保持克制与表达]
         information:
           - name: GitHub
-            url: https://github.com/everfu/hugo-solitude
+            url: https://github.com/OrdinaryRobot
             icon: fab fa-github
       siteinfo:
            runtime: 2026-11-12 00:00:00
@@ -146,7 +143,7 @@ params:
         author: /img/logo.png
         left:
           - name: GitHub
-            url: https://github.com/everfu/hugo-solitude
+            url: https://github.com/OrdinaryRobot
             icon: fab fa-github
         right:
           - name: 订阅
@@ -161,10 +158,8 @@ params:
           - name: 标签
             url: /tags/
         项目:
-          - name: 官方文档
-            url: https://solitude.js.org/
           - name: GitHub
-            url: https://github.com/everfu/hugo-solitude
+            url: https://github.com/OrdinaryRobot
         关于:
           - name: 友链
             url: /links/
