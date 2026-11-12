@@ -4,11 +4,11 @@ sections:
     greeting: 你好，欢迎来到小鱼儿的博客 👋
     name_prefix: 这是
     name: 小鱼儿
-    description: 记录学习、代码与生活
+    description: 记录学习、想法与生活
     pursuit:
       label: 追求
       lines: [让代码, 记录成长]
-      rotating_words: [学习, 刷题, 进步, 分享]
+      rotating_words: [学习, 思考, 进步, 分享]
 
   - type: skills_career
     skills:
@@ -17,8 +17,9 @@ sections:
       items:
         - { name: C, icon: fas fa-code, color: "#00599c" }
         - { name: C++, icon: fas fa-code, color: "#00599c" }
+        - { name: Python, icon: fas fa-code, color: "#00599c" }
         - { name: 算法竞赛, icon: fas fa-trophy, color: "#f59e0b" }
-        - { name: 数据结构, icon: fas fa-sitemap, color: "#16a34a" }
+        - { name: 算法, icon: fas fa-sitemap, color: "#16a34a" }
         - { name: Markdown, icon: fab fa-markdown, color: "#111827" }
         - { name: Git, icon: fab fa-git-alt, color: "#f05032" }
         - { name: Hugo, icon: fas fa-bolt, color: "#ff4088" }
@@ -28,7 +29,7 @@ sections:
       summary:
         - { name: "2026, 大一入学", color: "#425aef" }
         - { name: "现在, 学 C/C++ 与算法", color: "#ff4088" }
-        - { name: "未来, 保研路上", color: "#16a34a" }
+        - { name: "未来,未知 ", color: "#16a34a" }
       timeline:
         start: 2026
         end: 2030
@@ -37,19 +38,19 @@ sections:
         track_label: 学习
         aria_label: 小鱼儿的大学学习时间轴
         events:
-          - { label: 入学 + 学 C/C++, from: 2026, to: 2027, color: "#425aef" }
+          - { label: 入学 + 学 C/C++,Python, from: 2026, to: 2027, color: "#425aef" }
           - { label: 算法竞赛备赛, from: 2027, to: 2028, color: "#ff4088" }
-          - { label: 保研准备, from: 2028, to: 2030, color: "#16a34a" }
+          - { label: 准备????(待定), from: 2028, to: 2030, color: "#16a34a" }
 
   - type: values
     motto:
       label: 座右铭
-      prefix: 天道酬勤
-      content: 厚积薄发
+      prefix: 逸一时
+      content: 误一世
     expertise:
       label: 方向
       prefix: 专注于
-      specialist: 编程
+      specialist: 计算机科学
       content: 学习与成长
       level: 持续中
 
@@ -59,6 +60,6 @@ sections:
     content: |
       这里写你自己的自我介绍。
 
-      我是西华师范大学计算机学院的一名大一学生，正在学习 C 与 C++，同时自学算法竞赛、为保研做准备。
+      我是西华师范大学计算机学院的一名学生，正在学习 C 与 C++,同时自学算法竞赛、为后续发展做准备。
 
-      这个博客用来记录我的学习、刷题和成长。希望每一篇内容都能沉淀下来，被自己回头翻看，也欢迎你一起交流。
+      这个博客用来记录我的学习、思考和成长。希望每一篇内容都能沉淀下来，被自己回头翻看，也欢迎你一起交流。
