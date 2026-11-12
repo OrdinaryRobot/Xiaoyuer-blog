@@ -82,6 +82,7 @@ params:
   description: 小鱼儿的个人博客，记录学习、代码与生活
   solitude:
     site:
+      icon: /Xiaoyuer-blog/img/avatar.jpg
       name:
         class: text
         custom: 小鱼儿
@@ -90,7 +91,7 @@ params:
         项目:
           - name: GitHub
             url: https://github.com/OrdinaryRobot
-            icon: /img/logo.png
+            icon: /Xiaoyuer-blog/img/avatar.jpg
     hometop:
       banner:
         title: 小鱼儿的博客
@@ -108,7 +109,7 @@ params:
         Sticky: newestPost,newest_comment,allInfo
       my_card:
         author:
-          img: https://img2.doubanio.com/view/subject/m/public/s4518991.jpg
+          img: /Xiaoyuer-blog/img/avatar.jpg
           emoji: "😊"
         description: 小鱼儿的个人博客。
         content: 欢迎来到我的博客，记录我的学习，生活与想法。
@@ -120,10 +121,19 @@ params:
       siteinfo:
            runtime: 2026-11-12 00:00:00
 
+    page:
+      default:
+        cover: [/Xiaoyuer-blog/img/default.avif]
+
+    lazyload:
+      errorimg: /Xiaoyuer-blog/img/error_load.avif
+
     post:
       default:
+        cover: [/Xiaoyuer-blog/img/default.avif]
         copyright:
-          author_background: /img/demo/cover-shortcodes-v2.webp
+          author: /Xiaoyuer-blog/img/avatar.jpg
+          author_background: /Xiaoyuer-blog/img/demo/cover-shortcodes-v2.webp
       meta:
         pv: true
         comment: true
@@ -134,13 +144,13 @@ params:
         enable: true
         list:
           - name: Demo
-            qrcode: /img/demo/reward-qr.svg
+            qrcode: /Xiaoyuer-blog/img/demo/reward-qr.svg
       share:
         enable: false
         list: []
     footer:
       information:
-        author: /img/logo.png
+        author: /Xiaoyuer-blog/img/avatar.jpg
         left:
           - name: GitHub
             url: https://github.com/OrdinaryRobot
@@ -168,6 +178,8 @@ params:
       links:
         - name: 订阅
           url: /index.xml
+    errorpage:
+      img: /Xiaoyuer-blog/img/404.avif
     comment:
       use: none
       commentBarrage: false
