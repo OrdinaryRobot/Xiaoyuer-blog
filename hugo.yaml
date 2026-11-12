@@ -77,8 +77,8 @@ menus:
 
 params:
   author:
-    name: Solitude
-    email: solitude@example.org
+    name: 小鱼儿
+    email: ordinaryrobot@users.noreply.github.com
   description: 小鱼儿的个人博客，记录学习、代码与生活
   solitude:
     site:
@@ -88,8 +88,8 @@ params:
     nav:
       group:
         项目:
-          - name: Solitude
-            url: https://github.com/everfu/hugo-solitude
+          - name: GitHub
+            url: https://github.com/OrdinaryRobot
             icon: /img/logo.png
           - name: 官方文档
             url: https://solitude.js.org/
