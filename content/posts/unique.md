@@ -3,6 +3,7 @@ title: "unique"
 date: 2026-11-10
 draft: false
 categories: ["STL工具"]
+cover: /Xiaoyuer-blog/img/cover/STL.png
 ---
 
 unique(独一无二),如同它的名字，它是一个指针（迭代器）

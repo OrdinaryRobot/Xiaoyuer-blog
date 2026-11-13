@@ -3,6 +3,7 @@ title: "pair"
 date: 2026-11-09
 draft: false
 categories: ["STL工具"]
+cover: /Xiaoyuer-blog/img/cover/STL.png
 ---
 
 ###### pair是一个可以将两个元素统一在一个数组同一个位置的数据类型（容器）
