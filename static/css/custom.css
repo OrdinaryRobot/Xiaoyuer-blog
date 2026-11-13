@@ -1,25 +1,21 @@
 /* ============================================
-   自定义背景：Leaf 叶子图案（深绿色）
-   叶子颜色 #3a5f3a（深松针绿）
+   自定义背景：Leaf 叶子图案
+   配色：护眼「豆沙绿」底 + 柔绿叶子
+   豆沙绿是经典护眼配色，长时间阅读不累
    ============================================ */
 
-/* 浅色主题：米白暖砂底 + 深绿叶子 */
+/* 浅色主题：豆沙绿底 + 柔绿叶子 */
 body {
-  background-color: #f5f1e8;
+  background-color: #cfe6cc;
   background-image: url("/Xiaoyuer-blog/img/background/leaf.svg");
   background-repeat: repeat;
   background-size: 80px 40px;
 }
 
-/* 深色主题：深底 + 淡绿叶子（叶子半透明，不抢眼） */
+/* 深色主题：深灰绿底 + 柔绿叶子 */
 [data-theme="dark"] body {
-  background-color: #18171d;
+  background-color: #1e2a24;
   background-image: url("/Xiaoyuer-blog/img/background/leaf.svg");
   background-repeat: repeat;
   background-size: 80px 40px;
-}
-
-/* 深色主题下叶子整体调淡：用 filter 降低叶子亮度 */
-[data-theme="dark"] body {
-  background-blend-mode: soft-light;
 }
