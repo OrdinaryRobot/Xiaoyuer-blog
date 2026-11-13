@@ -4,9 +4,9 @@ links:
     type: card
     link_list: 
       - name: 学习C++语法与算法
-        link: https://oj.cwnupaa.com/file/2/6oh89iEXtrVrbeWtiIFPy.png
+        link: https://algospark.cwnupaa.com/
         descr: 西华师范大学程序设计算法协会学习平台
-        avatar: 
+        avatar: https://oj.cwnupaa.com/file/2/6oh89iEXtrVrbeWtiIFPy.png
       - name: 优秀中科大学长的博客
         link: https://wyqz.top/
         descr: 一位保研中科大的优秀学长的博客，记录了他自进入大学以来的来时路
