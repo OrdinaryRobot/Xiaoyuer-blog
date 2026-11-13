@@ -217,6 +217,9 @@ params:
     brevity:
       enable: true
       page: /brevity/
+    extends:
+      head:
+        - '<link rel="stylesheet" href="/Xiaoyuer-blog/css/custom.css">'
     envelope:
       enable: true
       line: 6

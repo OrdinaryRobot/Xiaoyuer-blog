@@ -1,0 +1,25 @@
+/* ============================================
+   自定义背景：Leaf 叶子图案（深绿色）
+   叶子颜色 #3a5f3a（深松针绿）
+   ============================================ */
+
+/* 浅色主题：米白暖砂底 + 深绿叶子 */
+body {
+  background-color: #f5f1e8;
+  background-image: url("/Xiaoyuer-blog/img/background/leaf.svg");
+  background-repeat: repeat;
+  background-size: 80px 40px;
+}
+
+/* 深色主题：深底 + 淡绿叶子（叶子半透明，不抢眼） */
+[data-theme="dark"] body {
+  background-color: #18171d;
+  background-image: url("/Xiaoyuer-blog/img/background/leaf.svg");
+  background-repeat: repeat;
+  background-size: 80px 40px;
+}
+
+/* 深色主题下叶子整体调淡：用 filter 降低叶子亮度 */
+[data-theme="dark"] body {
+  background-blend-mode: soft-light;
+}
